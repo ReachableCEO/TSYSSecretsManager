@@ -33,4 +33,7 @@ bw login --apikey $BW_CLIENTID $BW_CLIENTSECRET
 echo "Unlocking..."
 export BW_SESSION="$(bw unlock --passwordenv TSYS_BW_PASSWORD_REACHABLECEO --raw)"
 
-bw list items
+
+### Step 2: retrive a value into an environment variable
+
+export PUSHOVER_APIKEY="$(bw get password APIKEY-pushover)"
