@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+# Written by Chatgpt
+# 70% problem for sure..
+
+
 # shellcheck disable=SC1090
 
 # Bash3 Boilerplate Setup
