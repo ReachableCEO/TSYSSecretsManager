@@ -1,6 +1,11 @@
 # Bitwarden configuration files containing secrets
 bitwarden-config.conf
+bitwarden-config.conf.dev
 *.conf
+!*.conf.sample
+
+# Test files
+tests/test-bitwarden-config.conf
 
 # Log files
 *.log
@@ -8,6 +13,9 @@ bitwarden-config.conf
 
 # Session files
 .bw-session
+
+# Generated documentation
+COMMANDS.md
 
 # Backup files
 *.bak
