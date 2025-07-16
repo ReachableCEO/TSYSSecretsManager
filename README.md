@@ -117,9 +117,8 @@ curl -X POST "https://api.pushover.net/1/messages.json" \
 
 The script automatically tries multiple installation methods in order:
 
-1. **Snap Package** (if snapd is available)
-2. **NPM Global Package** (if npm is available)
-3. **Direct Binary Download** (fallback method)
+1. **NPM Global Package** (if npm is available)
+2. **Direct Binary Download** (fallback method)
 
 ## Error Codes
 

@@ -44,14 +44,6 @@ install_bitwarden_cli() {
     
     info "Installing Bitwarden CLI..."
     
-    if command -v snap &>/dev/null; then
-        info "Installing via snap..."
-        if sudo snap install bw; then
-            info "Bitwarden CLI installed successfully via snap"
-            return 0
-        fi
-    fi
-    
     if command -v npm &>/dev/null; then
         info "Installing via npm..."
         if sudo npm install -g @bitwarden/cli; then
