@@ -1,0 +1,16 @@
+# Bitwarden Configuration File
+# Copy this file to bitwarden-config.conf and update with your actual values
+
+# Bitwarden server URL
+BW_SERVER_URL="https://pwvault.turnsys.com"
+
+# API credentials (get these from your Bitwarden account settings)
+BW_CLIENTID="your_client_id_here"
+BW_CLIENTSECRET="your_client_secret_here"
+
+# Master password for your Bitwarden account
+BW_PASSWORD="your_master_password_here"
+
+# Optional: Additional environment variables
+# BW_ORGANIZATION_ID="your_org_id_here"
+# BW_COLLECTION_ID="your_collection_id_here"

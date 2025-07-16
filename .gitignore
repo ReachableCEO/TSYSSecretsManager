@@ -1,0 +1,25 @@
+# Bitwarden configuration files containing secrets
+bitwarden-config.conf
+*.conf
+
+# Log files
+*.log
+/tmp/*.log
+
+# Session files
+.bw-session
+
+# Backup files
+*.bak
+*.backup
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
